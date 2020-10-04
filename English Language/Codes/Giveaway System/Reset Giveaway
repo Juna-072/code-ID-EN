@@ -1,0 +1,14 @@
+Trigger: greset
+Code Lang: DBScript
+
+
+$nomention
+$resetUserVar[GIVEAWAY_REQ]
+$resetUserVar[GIVEAWAY_PRIZE]
+$resetUserVar[GIVEAWAY_TIME]
+$resetUserVar[GIVEAWAY_CHANNEL]
+$resetUserVar[GIVEAWAY_MAKERID]
+$resetUserVar[GIVEAWAY_REROLL]
+Managed To Giveaway Ended <@$authorID>
+$deletecommand
+$deleteIn[3s]

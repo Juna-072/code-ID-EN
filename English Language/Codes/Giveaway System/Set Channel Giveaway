@@ -1,0 +1,13 @@
+$nomention
+$onlyAdmin[Sorry, you are not authorized to use it]
+$onlyIf[$mentionedChannels[1]!=;Please Mention Channel For A Giveaway Later]
+$onlyIf[$getUserVar[GIVEAWAY_MAKERID;$authorID]!=;Sorry, you need to use ** `!gcreate` ** to create it]
+$onlyIf[$authorID==$getUserVar[GIVEAWAY_MAKERID];Because you are not a giveaway maker from the start so you can't manage]
+
+
+$setUserVar[GIVEAWAY_CHANNEL;$mentionedChannels[1]]
+$description[I Successfully Tune In The Channel Where The Giveaway Is On $message[1]]
+$footer[Use: (prefix)gstart to start a giveaway]
+$author[$username#$discriminator[$authorID]]
+$authorIcon[$userAvatar[$authorID]]
+$color[32BBF2]

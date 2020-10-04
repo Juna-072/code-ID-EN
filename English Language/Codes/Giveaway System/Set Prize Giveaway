@@ -1,0 +1,19 @@
+Trigger: (prefix)set gprize
+Code Lang: DBScript
+
+$nomention
+$onlyAdmin[Sorry, you are not authorized to use it]
+$argsCheck[>1;You Must Give Prizes To Lucky People Who Later Win The Giveaway With Bot **(bot name)**]
+$onlyIf[$getUserVar[GIVEAWAY_MAKERID;$authorID]!=;Sorry, you need to use ** `(prefix)gcreate` ** to create it]
+$onlyIf[$authorID==$getUserVar[GIVEAWAY_MAKERID];Because you are not a giveaway maker from the start so you can't manage]
+
+
+$setUserVar[GIVEAWAY_PRIZE;$message]
+
+$description[I Successfully Set Up A Prize Giveaway
+
+**$message**] 
+$footer[Use: (prefix)gstart to start a giveaway]
+$author[$username#$discriminator[$authorID]]
+$authorIcon[$userAvatar[$authorID]]
+$color[32BBF2]

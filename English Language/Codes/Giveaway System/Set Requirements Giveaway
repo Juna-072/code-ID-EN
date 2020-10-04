@@ -1,0 +1,21 @@
+Trigger: (prefix)set greq
+Code Lang:: DBScript
+
+
+$nomention
+$onlyAdmin[Sorry, you are not authorized to use it]
+$argsCheck[>1;If you wish to qualify for the giveaway this time, please provide what are the requirements]
+$onlyIf[$getUserVar[GIVEAWAY_MAKERID;$authorID]!=;Sorry, you need to use ** `(prefix)gcreate` ** to create it]
+$onlyIf[$authorID==$getUserVar[GIVEAWAY_MAKERID];Because you are not a giveaway maker from the start so you can't manage]
+
+
+$setUserVar[GIVEAWAY_REQ;$replaceText[$replaceText[$checkCondition[$message==];true;;1];false;$message;1]]
+
+$description[I Successfully Set Requirements
+
+**$replaceText[$replaceText[$checkCondition[$message==];true;;1];false;$message;1]**]
+$footer[Use: (prefix)gstart to create a giveaway]
+$author[$username#$discriminator[$authorID]]
+$authorIcon[$userAvatar[$authorID]]
+$color[32BBF2]
+

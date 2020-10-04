@@ -1,0 +1,17 @@
+Trigger: (prefix)help giveaway 
+Code Lang: DBScript
+
+
+$nomention
+$description[**LIST COMMANDS GIVEAWAY**
+
+```(prefix)gcreate - To Start a Giveaway 
+(prefix)set gtime - To Set the Giveaway Time to Succeed 100% Later
+(prefix)set gchannel - To Set Where The Channel Continues Which Later Will Become A Giveaway Place
+(prefix)set gprize - To Set Up a Giveaway Prize
+(prefix)set greq - To Set Giveaway Requirements
+(prefix)gend - Pay Attention To The Giveaway
+(prefix)greroll - To Change the Giveaway Winner
+(prefix)gstart - To Start A Giveaway That Was Set By Admin
+(prefix)help giveaway - To see the command name and command description```]
+$color[ff00ff]

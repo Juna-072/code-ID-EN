@@ -1,0 +1,23 @@
+Trigger: gstart
+Code Lang: DBScript (If the error is' try using unstable mode)
+
+
+$nomention
+$onlyAdmin[Sorry, you are not authorized to use it]
+$onlyIf[$getUserVar[GIVEAWAY_TIME]!=;You need to use `(prefix)set gtime` first]
+$onlyIf[$getUserVar[GIVEAWAY_CHANNEL]!=;You need to use `(prefix)set gchannel` first]
+$onlyIf[$getUserVar[GIVEAWAY_PRIZE]!=;You need to use `(prefix)set gprize` first]
+$onlyIf[$authorID==$getUserVar[GIVEAWAY_MAKERID];Because you are not a giveaway maker from the start so you can't manage]
+
+$title[$getUserVar[GIVEAWAY_PRIZE]]
+$description[**__Prize__: $getUserVar[GIVEAWAY_PRIZE]
+__Time__: $getUserVar[GIVEAWAY_TIME]
+__Hosted By__: <@$authorID>
+$replaceText[$replaceText[$checkCondition[$getUserVar[GIVEAWAY_REQ]!=];true;__Requirements__:;1];false;;1]
+$replaceText[$replaceText[$checkCondition[$getUserVar[GIVEAWAY_REQ]!=];true;$getUserVar[GIVEAWAY_REQ];1];false;;1]**]
+$footer[Wait $getUserVar[GIVEAWAY_TIME] To End]
+$editIn[$getUserVar[GIVEAWAY_TIME]; <@$authorID>, Now Time To Use `(prefix)gend`]
+$addTimestamp
+$addReactions[🎉]
+$useChannel[$getUserVar[GIVEAWAY_CHANNEL]]
+$color[76F75B]
