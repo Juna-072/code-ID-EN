@@ -11,11 +11,11 @@
 ------------------------------------------------------------------------------------------------------------------------------
 ## Need Variable And Value:
 * GIVEAWAY_TIME | Blank 
-2. GIVEAWAY_CHANNEL | Blank 
-3. GIVEAWAY_PRIZE | Blank 
-4. GIVEAWAY_REQ | Blank 
-5. GIVEAWAY_MAKERID | Blank 
-6. GIVEAWAY_REROLL | Blank 
+* GIVEAWAY_CHANNEL | Blank 
+* GIVEAWAY_PRIZE | Blank 
+* GIVEAWAY_REQ | Blank 
+* GIVEAWAY_MAKERID | Blank 
+* GIVEAWAY_REROLL | Blank 
 
 `Info:
  Name Variable | Value , (The Value is Empty, Don't Fill it in)`
