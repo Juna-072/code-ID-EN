@@ -6,7 +6,7 @@ How To Use The Giveaway:
 4. You just wait until you edit the embed and use the (prefix)gend
 5. if you want to change the winner you can use the (prefix)greroll 
 
-Thanks
+
 
 ------------------------------------------------------------------------------------------------------------------------------
 Need Variable And Value:
@@ -20,3 +20,7 @@ Need Variable And Value:
 
 Info:
  Name Variable | Value , (The Value is Empty, Don't Fill it in)
+
+
+
+Thanks
