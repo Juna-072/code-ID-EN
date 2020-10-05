@@ -11,11 +11,11 @@ Thanks
 ------------------------------------------------------------------------------------------------------------------------------
 Need Variable And Value:
 
-GIVEAWAY_TIME | Blank.
-GIVEAWAY_CHANNEL | Blank.
-GIVEAWAY_PRIZE | Blank.
-GIVEAWAY_REQ | Blank.
-GIVEAWAY_MAKERID | Blank.
+GIVEAWAY_TIME | Blank .
+GIVEAWAY_CHANNEL | Blank .
+GIVEAWAY_PRIZE | Blank .
+GIVEAWAY_REQ | Blank .
+GIVEAWAY_MAKERID | Blank .
 GIVEAWAY_REROLL | Blank .
 
 Info:
