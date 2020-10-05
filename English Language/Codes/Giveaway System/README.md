@@ -5,3 +5,5 @@ How To Use The Giveaway:
 3. use (prefix)gstart to start the giveaway
 4. You just wait until you edit the embed and use the (prefix)gend
 5. if you want to change the winner you can use the (prefix)greroll 
+
+Thanks
