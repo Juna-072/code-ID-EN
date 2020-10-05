@@ -18,5 +18,5 @@ GIVEAWAY_REQ | Blank
 GIVEAWAY_MAKERID | Blank
 GIVEAWAY_REROLL |Blank
 
-Info
+Info:
 Name Variable | Value , (The Value is Empty, Don't Fill it in)
