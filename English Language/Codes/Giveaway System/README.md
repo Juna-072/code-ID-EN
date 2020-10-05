@@ -16,7 +16,7 @@ GIVEAWAY_CHANNEL | Blank.
 GIVEAWAY_PRIZE | Blank.
 GIVEAWAY_REQ | Blank.
 GIVEAWAY_MAKERID | Blank.
-GIVEAWAY_REROLL |Blank.
+GIVEAWAY_REROLL | Blank .
 
 Info:
 Name Variable | Value , (The Value is Empty, Don't Fill it in)
