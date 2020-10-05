@@ -11,8 +11,8 @@ Thanks
 ------------------------------------------------------------------------------------------------------------------------------
 Need Variable And Value:
 
-GIVEAWAY_TIME | Blank .
-GIVEAWAY_CHANNEL | Blank .
+1. GIVEAWAY_TIME | Blank .
+2. GIVEAWAY_CHANNEL | Blank .
 GIVEAWAY_PRIZE | Blank .
 GIVEAWAY_REQ | Blank .
 GIVEAWAY_MAKERID | Blank .
