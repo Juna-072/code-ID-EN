@@ -2,7 +2,7 @@ Trigger: (prefix)gend
 Code Lang: DBScript unstable
 
 
-$nomention
+`$nomention
 $onlyAdmin[Sorry, you are not authorized to use it]
 $onlyIf[$getUserVar[GIVEAWAY_TIME]!=;You need to use `(prefix)set gtime` first]
 $onlyIf[$getUserVar[GIVEAWAY_CHANNEL]!=;You need to use `(prefix)set gchannel` first]
@@ -16,4 +16,4 @@ $addTimestamp
 $textSplit[$getReactions[$getUserVar[GIVEAWAY_CHANNEL];$message[1];+;🎉];+]
 $argsCheck[>1;You must provide a Giveaway message ID]
 $suppressErrors[You must provide a correct Giveaway message ID]
-$color[3BD9F0]
+$color[3BD9F0]`
