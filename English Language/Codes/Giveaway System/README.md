@@ -6,8 +6,8 @@ How To Use The Giveaway:
 4. You just wait until you edit the embed and use the (prefix)gend
 5. if you want to change the winner you can use the (prefix)greroll 
 
-# Image How to Change to Unstable DBScript Mode
-![logo](https://imgur.com/a/wgYZbof)
+## Image How to Change to Unstable DBScript Mode
+![unstable](https://imgur.com/a/wgYZbof)
 
 ------------------------------------------------------------------------------------------------------------------------------
 Need Variable And Value:
