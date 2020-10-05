@@ -1,0 +1,15 @@
+Trigger: (prefix)gcreate
+Code Lang: DBScript
+
+
+$nomention
+$onlyAdmin[Sorry, you don't have permission to use]
+$setUserVar[GIVEAWAY_MAKERID;$authorID]
+$description[**Now You Can Make a Giveaway**
+
+You need to use the following commands to run it:]
+$addField[1. (prefix)set gchannel; To Set Channel For Later Giveaway]
+$addField[2. (prefix)set gtime; To Set A Giveaway Time That Will Be Created Later]
+$addField[3. (prefix)set gprize; To Set Up A Gift Giveaway Later]
+$addField[4. (prefix)set greq; To Set Giveaway Requirements]
+$color[ffffff]
