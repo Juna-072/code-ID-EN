@@ -6,4 +6,4 @@ Atau Anda Cari Saja Dengan Cara Seperti Ini:
 ``` in:#wikis Juna```
 
 ## Image Search
-![logo](https://cdn.discordapp.com/attachments/666294922005184516/754091644822749264/1599859800354.jpg)
+![search](https://cdn.discordapp.com/attachments/666294922005184516/754091644822749264/1599859800354.jpg)
