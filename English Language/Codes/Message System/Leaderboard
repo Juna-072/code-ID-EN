@@ -1,0 +1,10 @@
+Trigger: (prefix)leaderboard
+Code Lang: DBScript
+
+
+
+Code:
+$nomention
+$title[$serverName[$guildID]]
+$userLeaderboard[messages;asc]
+$color[Ffffff]

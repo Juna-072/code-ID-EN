@@ -1,0 +1,12 @@
+Trigger: (prefix)reset message
+Code Lang: DBScript
+
+
+
+Code:
+$nomention
+$setUserVar[messages;0;$mentioned[1]]
+$description[I have successfully reset messages <@$mentioned[1]>]
+$footer[By $username]
+$addTimestamp
+$color[ffffff]

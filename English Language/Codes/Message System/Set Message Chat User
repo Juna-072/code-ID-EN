@@ -1,0 +1,8 @@
+Trigger: $alwaysReply (Premium Only)
+Code Lang: DBScript
+
+
+
+Code:
+$nomention
+$setUserVar[messages;$sum[$getUserVar[messages];$random[3;7]]]

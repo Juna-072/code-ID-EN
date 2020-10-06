@@ -1,0 +1,12 @@
+Trigger: (prefix)messages
+Code Lang: DBScript
+
+
+
+Code:
+$nomention
+$title[$serverName[$guildID]]
+$description[**You just had a `$getUserVar[messages;$mentioned[1;yes]]` message **]
+$footer[$username[$mentioned[1;yes]]#$discriminator[$mentioned[1;yes]]]
+$footerIcon[$userAvatar[$mentioned[1;yes]]]
+$color[ffffff]

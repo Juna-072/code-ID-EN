@@ -1,0 +1,23 @@
+Trigger: (prefix set) add message
+Code Lang: DBScript
+
+
+
+Code:
+$nomention
+$deletecommand
+$​allowMention
+$​title[Added Messages]
+$​description[Successfully added `$noMentionMessage` to $username[$mentioned[1;yes]]]
+
+$setUserVar[messages;$sum[$getUserVar[messages;$mentioned[1]];$message[2]];$mentioned[1]]
+$onlyAdmin[Sorry you can't use this]
+
+$suppressErrors[You have to use this properly: ``(prefix)add message <@user> <amount>``]
+
+$argsCheck[>1; You have to use this properly: ``(prefix)add message <@user> <amount>``]
+
+$footer[By $username#$discriminator[$authorID]]
+$addTimestamp
+$color[ffffff]
+
